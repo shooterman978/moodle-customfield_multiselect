@@ -169,12 +169,14 @@ class data_controller extends \core_customfield\data_controller {
      *
      * @return array
      */
+    /*
     public function get_value() {
         if (!$this->get('id')) {
             return $this->get_default_value();
         }
         return explode(',', $this->get($this->datafield()));
     }
+    */
 
     /**
      * Set the value as it should be stored in the database
